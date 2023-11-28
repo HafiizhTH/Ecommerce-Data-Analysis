@@ -44,15 +44,15 @@ Library yang saya gunakan sebagai berikut:
 ### Gathering Data
 """
 
-data_customer = pd.read_csv(r'C:\Users\Siswantoro\Documents\Hafiizh\Dicoding\Tugas\ProyekAkhir_AnalisisData\dataset\customers_dataset.csv')
-data_geolocation = pd.read_csv(r'C:\Users\Siswantoro\Documents\Hafiizh\Dicoding\Tugas\ProyekAkhir_AnalisisData\dataset\geolocation_dataset.csv')
-data_order_items = pd.read_csv(r'C:\Users\Siswantoro\Documents\Hafiizh\Dicoding\Tugas\ProyekAkhir_AnalisisData\dataset\order_items_dataset.csv')
-data_order_payments = pd.read_csv(r'C:\Users\Siswantoro\Documents\Hafiizh\Dicoding\Tugas\ProyekAkhir_AnalisisData\dataset\order_payments_dataset.csv')
-data_order_reviews = pd.read_csv(r'C:\Users\Siswantoro\Documents\Hafiizh\Dicoding\Tugas\ProyekAkhir_AnalisisData\dataset\order_reviews_dataset.csv')
-data_orders = pd.read_csv(r'C:\Users\Siswantoro\Documents\Hafiizh\Dicoding\Tugas\ProyekAkhir_AnalisisData\dataset\orders_dataset.csv')
-data_product_category_name = pd.read_csv(r'C:\Users\Siswantoro\Documents\Hafiizh\Dicoding\Tugas\ProyekAkhir_AnalisisData\dataset\product_category_name_translation.csv')
-data_products = pd.read_csv(r'C:\Users\Siswantoro\Documents\Hafiizh\Dicoding\Tugas\ProyekAkhir_AnalisisData\dataset\products_dataset.csv')
-data_sellers = pd.read_csv(r'C:\Users\Siswantoro\Documents\Hafiizh\Dicoding\Tugas\ProyekAkhir_AnalisisData\dataset\sellers_dataset.csv')
+data_customer = pd.read_csv(r'C:\Users\Siswantoro\Documents\Hafiizh\Dicoding\Tugas\ProyekAkhir_AnalisisData\ProyekAkhir-AnalisisData-Dicoding\dataset\customers_dataset.csv')
+data_geolocation = pd.read_csv(r'C:\Users\Siswantoro\Documents\Hafiizh\Dicoding\Tugas\ProyekAkhir_AnalisisData\ProyekAkhir-AnalisisData-Dicoding\dataset\geolocation_dataset.csv')
+data_order_items = pd.read_csv(r'C:\Users\Siswantoro\Documents\Hafiizh\Dicoding\Tugas\ProyekAkhir_AnalisisData\ProyekAkhir-AnalisisData-Dicoding\dataset\order_items_dataset.csv')
+data_order_payments = pd.read_csv(r'C:\Users\Siswantoro\Documents\Hafiizh\Dicoding\Tugas\ProyekAkhir_AnalisisData\ProyekAkhir-AnalisisData-Dicoding\dataset\order_payments_dataset.csv')
+data_order_reviews = pd.read_csv(r'C:\Users\Siswantoro\Documents\Hafiizh\Dicoding\Tugas\ProyekAkhir_AnalisisData\ProyekAkhir-AnalisisData-Dicoding\dataset\order_reviews_dataset.csv')
+data_orders = pd.read_csv(r'C:\Users\Siswantoro\Documents\Hafiizh\Dicoding\Tugas\ProyekAkhir_AnalisisData\ProyekAkhir-AnalisisData-Dicoding\dataset\orders_dataset.csv')
+data_product_category_name = pd.read_csv(r'C:\Users\Siswantoro\Documents\Hafiizh\Dicoding\Tugas\ProyekAkhir_AnalisisData\ProyekAkhir-AnalisisData-Dicoding\dataset\product_category_name_translation.csv')
+data_products = pd.read_csv(r'C:\Users\Siswantoro\Documents\Hafiizh\Dicoding\Tugas\ProyekAkhir_AnalisisData\ProyekAkhir-AnalisisData-Dicoding\dataset\products_dataset.csv')
+data_sellers = pd.read_csv(r'C:\Users\Siswantoro\Documents\Hafiizh\Dicoding\Tugas\ProyekAkhir_AnalisisData\ProyekAkhir-AnalisisData-Dicoding\dataset\sellers_dataset.csv')
 
 data_products.sample(5)
 data_product_category_name.sample(5)
