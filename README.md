@@ -3,7 +3,7 @@
 ## Installation
 Open a terminal and run::
 
-```bash 
+bash 
 $ pip install pandas
 $ pip install numpy
 $ pip install matplotlib
@@ -11,19 +11,19 @@ $ pip install seaborn
 $ pip install sklearn
 $ pip install streamlit
 $ streamlit hello
-```
+
 
 ## Quickstart
 1. Create a new file dashboard.py with the following code:
-```bash 
+bash 
 import streamlit as st
 
 print("Hello World")
-```
+
 
 2. Run streamlit app
-```bash 
+bash 
 streamlit run dashboard.py
-```
+
 
 
